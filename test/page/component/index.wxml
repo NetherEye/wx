@@ -1,0 +1,23 @@
+<view class="index">
+
+  <view class="section">
+    <input bindinput="bindKeyInput" placeholder="输入同步到view中" />
+  </view>
+
+   <view class="page-body">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <view class='button'>
+      <button type="primary">页面主操作</button>
+      <button type="primary">页面主操作</button>
+      <button type="primary">页面主操作</button>
+    </view>
+</view>

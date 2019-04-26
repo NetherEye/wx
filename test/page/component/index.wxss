@@ -1,0 +1,35 @@
+@import "../common/index.wxss";
+
+.index {
+  padding: 0 15px;
+}
+.section{
+  border:1px solid #ccc;
+  margin-bottom: 30rpx;
+}
+.button{
+  display: flex;
+}
+button{
+  font-size: 13px;
+}
+.page-section-title{
+  padding: 0;
+}
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.page-section-title{
+  margin-top: 60rpx;
+  position: relative;
+}
+.info{
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}
+.page-foot{
+  margin-top: 50rpx;
+}
